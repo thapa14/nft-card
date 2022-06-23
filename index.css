@@ -42,6 +42,7 @@ main{
     width: 100%;
     border-radius: 1rem;
     position: relative;
+    cursor: pointer;
 }
 
 .originalImage{
@@ -135,6 +136,6 @@ h1:hover{
     color: var(--cyan);
 }
 
-.about span:hover{
+.about span:hover, .about span:active{
     color: var(--cyan);
 }
